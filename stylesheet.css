@@ -1,0 +1,188 @@
+header{
+    height:100%;
+    position:fixed;
+    width:300px;
+    background-color:#efe2e1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 0px 40px;
+    box-sizing: border-box;
+    border-radius:10px;
+}
+
+.header-logo{
+    text-align:center;
+
+}
+
+.logo-icon{
+    width:200px;
+}
+
+.logo-text{
+    width:280px;
+    font-size:35px;
+    font-family:"Indie Flower";
+}
+
+ul {
+    list-style: none;
+  }
+  
+a {
+    text-decoration: none;
+    
+  }
+
+.menu-list a{
+    color:#d6bdc1;
+    padding:16px 18px;
+    display:inline-block;
+    font-size:24px;
+    border-radius:3px;
+    text-align:center;
+    letter-spacing:1px;
+}
+
+.menu-list a:hover{
+    background-color:#f7f4f8;
+    
+}
+
+main{
+    margin-left:300px;
+    padding:40px 40px 0px 40px;
+}
+
+img{
+    width:100%;
+}
+.top-img{
+    margin-bottom:32px;
+    border-radius:10px;
+}
+
+.news-wrapper{
+    margin-bottom:32px;
+}
+
+
+
+.news-category{
+   color:#ec654f;
+}
+
+.news p{
+    font-size:30px;
+    text-align:center;
+}
+
+.news-title{
+    color:black;
+    letter-spacing:1px;
+}
+
+.news-title:hover{
+    text-decoration:underline;
+    color:#d6bdc1;
+}
+
+.blog-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 16px;
+    margin-bottom: 80px;
+}
+
+.blog{
+    color: #000000;
+    display: block;
+    border: 2px solid #efe2e1;
+    border-radius: 10px;
+    padding:12px;
+  }
+
+  .blog img{
+      border-radius:10px;
+  }
+
+  .blog p{
+      font-size:24px;
+      color:black;
+      letter-spacing:1px;
+  }
+
+  .big{
+      font-size:28px;
+      margin-top:10px;
+  }
+
+  .train{
+    color: #ec654f;
+    
+  }
+
+  .train p{
+    font-size:25px;
+    color:#d6bdc1;
+  }
+  
+  .train span{
+    margin-right:16px;
+  }
+  
+
+  .blog:hover {
+    border: 2px solid #ec654f;
+  }
+
+
+.message{
+    text-align:center;
+    font-family:"Indie Flower";
+    font-size:28px;
+    margin-bottom:50px;
+}
+
+.message:hover{
+    color:#d6bdc1;
+}
+
+.about-wrapper{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(315px,auto));
+      margin-bottom:80px;
+      gap:30px;
+}
+
+.about-wrapper img{
+    border-radius:10px;
+    height:380px;
+}
+
+.about-title{
+    text-align:center;
+    color:#d6bdc1;
+    font-size:10px;
+    
+}
+
+.about-content p{
+    font-size:24px;
+    margin-bottom:40px;
+    letter-spacing:1px;
+}
+
+.read-more{
+    font-size:24px;
+    color:#d6bdc1;
+    background-color:#f7f4f8;
+    border-radius:10px;
+    padding:6px 10px;
+}
+
+.read-more:hover{
+    background-color:#efe2e1;
+}
+
